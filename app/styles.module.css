@@ -10,7 +10,76 @@
 }
 
 .content {
-  max-width: 350px;
+  max-width: 360px;
   height: 100%;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.userDateHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.likesShareFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.username {
+  margin-right: 110px;
+  font-weight: bold;
+}
+
+.likes {
+  margin-right: 200px;
+  font-weight: bold;
+}
+
+.date {
+  font-weight: 200;
+}
+
+.postImage {
+  width: 320px;
+  height: auto;
+  border-radius: 5%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.postContent {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.commentContent {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.commentContainer {
+  margin-bottom: 10px;
+}
+
+.commentBox {
+  margin-bottom: 10px;
 }
