@@ -2,7 +2,7 @@
 
 import styles from './styles.module.css';
 import '../assets/global.css';
-import PostComponent from './PostComponent';
+import PostComponent from './PostScreen';
 
 export default function Home() {
   return (

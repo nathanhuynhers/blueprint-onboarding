@@ -19,20 +19,32 @@
   align-items: space-around;
 }
 
-.userDateHeader {
+.postHeader {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin: 10px;
 }
 
-.likesShareFooter {
+.usernameGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.postFooter {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-right: 8px;
-  margin-left: 8px;
+  justify-content: space-between;
+  padding: 0 12px;
   margin-bottom: 10px;
+}
+
+.likesContainer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .separator {
@@ -59,7 +71,7 @@
   width: 320px;
   height: auto;
   max-width: 100%;
-  border-radius: 5%;
+  border-radius: 10px;
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
